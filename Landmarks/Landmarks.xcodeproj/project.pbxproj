@@ -17,6 +17,8 @@
 		5529CBC626D0D43300F45123 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5529CBA126D0D43300F45123 /* Assets.xcassets */; };
 		55D70A9426DA458100F7C564 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D70A9326DA458100F7C564 /* SoundPlayer.swift */; };
 		55D70A9526DA458100F7C564 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D70A9326DA458100F7C564 /* SoundPlayer.swift */; };
+		55D70A9A26DA636A00F7C564 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D70A9926DA636A00F7C564 /* ImageView.swift */; };
+		55D70A9B26DA636A00F7C564 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D70A9926DA636A00F7C564 /* ImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,7 @@
 		5529CBBB26D0D43300F45123 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5529CBBF26D0D43300F45123 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		55D70A9326DA458100F7C564 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		55D70A9926DA636A00F7C564 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,7 @@
 			children = (
 				5529CB9F26D0D43200F45123 /* LandmarksApp.swift */,
 				5529CBA026D0D43200F45123 /* ContentView.swift */,
+				55D70A9926DA636A00F7C564 /* ImageView.swift */,
 				55D70A9326DA458100F7C564 /* SoundPlayer.swift */,
 				5529CBA126D0D43300F45123 /* Assets.xcassets */,
 			);
@@ -287,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55D70A9A26DA636A00F7C564 /* ImageView.swift in Sources */,
 				5529CBC326D0D43300F45123 /* ContentView.swift in Sources */,
 				55D70A9426DA458100F7C564 /* SoundPlayer.swift in Sources */,
 				5529CBC126D0D43300F45123 /* LandmarksApp.swift in Sources */,
@@ -297,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55D70A9B26DA636A00F7C564 /* ImageView.swift in Sources */,
 				5529CBC426D0D43300F45123 /* ContentView.swift in Sources */,
 				55D70A9526DA458100F7C564 /* SoundPlayer.swift in Sources */,
 				5529CBC226D0D43300F45123 /* LandmarksApp.swift in Sources */,
