@@ -1,4 +1,3 @@
-//
 //  ContentView.swift
 //  Shared
 //
@@ -8,12 +7,20 @@
 import SwiftUI
 
 struct ContentView: View {
+
   var body: some View {
     VStack(alignment: .leading) {
-      Text("Hello, world!")
-        .font(.title)
+      Text("Hello, swift!")
+            .font(.largeTitle)
+            .fontWeight(.ultraLight)
+            .foregroundColor(Color.red)
+            .multilineTextAlignment(.center)
+            .padding([.top, .leading, .bottom], 8.0)
       Text("xcode !!!")
         .font(.title2)
+        Button(action: {}) {
+            Text("Button")
+        }
     }
   }
 }
