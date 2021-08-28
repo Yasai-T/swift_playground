@@ -21,9 +21,9 @@ struct ContentView: View {
       Text("xcode !!!")
         .font(.title2)
       Button(action: {
-          outputText = "hi swift"
-          
-          print("test hello")
+        outputText = "hi swift"
+
+        print("test hello")
       }) {
         Text("Button")
       }
