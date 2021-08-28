@@ -12,21 +12,9 @@ struct ContentView: View {
 
   var body: some View {
     VStack(alignment: .leading) {
-      Text(outputText)
-        .font(.largeTitle)
-        .fontWeight(.ultraLight)
-        .foregroundColor(Color.red)
-        .multilineTextAlignment(.center)
-        .padding([.top, .leading, .bottom], 8.0)
-      Text("xcode !!!")
-        .font(.title2)
-      Button(action: {
-        outputText = "hi swift"
-
-        print("test hello")
-      }) {
-        Text("Button")
-      }
+      Image("animal_hitsuji_shiboubi")
+        .resizable()
+        .aspectRatio(contentMode: ContentMode.fit)
     }
   }
 }
