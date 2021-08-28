@@ -8,13 +8,34 @@ import SwiftUI
 
 struct ContentView: View {
 
-  @State var outputText = "hello world"
+  @State var index = 0
 
   var body: some View {
     VStack(alignment: .leading) {
-      Image("animal_hitsuji_shiboubi")
-        .resizable()
-        .aspectRatio(contentMode: ContentMode.fit)
+      Button(action:  {
+          var newIndex = 0
+          repeat {
+              newIndex = Int.random(in: 0...2)
+          } while index == newIndex
+          index = newIndex
+      } ) {
+        switch index {
+        case 0:
+          Image("animal_hitsuji_shiboubi")
+            .resizable()
+            .aspectRatio(contentMode: ContentMode.fit)
+        case 1:
+          Image("animal_kiboshi_iwa_hyrax")
+            .resizable()
+            .aspectRatio(contentMode: ContentMode.fit)
+        case 2:
+          Image("animal_usaghi_netherland_dwarf")
+            .resizable()
+            .aspectRatio(contentMode: ContentMode.fit)
+        default:
+          Text("Error")
+        }
+      }
     }
   }
 }
