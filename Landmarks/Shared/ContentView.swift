@@ -10,15 +10,28 @@ struct ContentView: View {
 
   @State var index = 0
 
+  let soundPlayer = SoundPlayer()
+
   var body: some View {
     VStack(alignment: .leading) {
-      Button(action:  {
-          var newIndex = 0
-          repeat {
-              newIndex = Int.random(in: 0...2)
-          } while index == newIndex
-          index = newIndex
-      } ) {
+      Button(action: {
+        var newIndex = 0
+        repeat {
+          newIndex = Int.random(in: 0...2)
+        } while index == newIndex
+        
+          switch newIndex {
+          case 0:
+              soundPlayer.kickPlay()
+          case 1:
+              soundPlayer.tamPlay()
+          case 2:
+              soundPlayer.snarePlay()
+          default:
+              return
+          }
+        index = newIndex
+      }) {
         switch index {
         case 0:
           Image("animal_hitsuji_shiboubi")
