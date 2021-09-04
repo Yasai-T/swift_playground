@@ -25,7 +25,16 @@ struct MapView: UIViewRepresentable {
           let location = firstPlacemark.location
         {
           let targetCoodinate = location.coordinate
-          print(targetCoodinate)
+
+          let pin = MKPointAnnotation()
+          pin.coordinate = targetCoodinate
+          pin.title = searchKey
+          uiView.addAnnotation(pin)
+          uiView.region = MKCoordinateRegion(
+            center: targetCoodinate,
+            latitudinalMeters: 500.0,
+            longitudinalMeters: 500.0
+          )
         }
       })
 
