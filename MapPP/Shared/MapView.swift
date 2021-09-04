@@ -10,11 +10,13 @@ import SwiftUI
 
 struct MapView: UIViewRepresentable {
   let searchKey: String
+  let mapType: MKMapType
   func makeUIView(context: Context) -> some MKMapView {
     MKMapView()
   }
 
   func updateUIView(_ uiView: UIViewType, context: Context) {
+    uiView.mapType = mapType
     let geocoder = CLGeocoder()
 
     geocoder.geocodeAddressString(
@@ -43,6 +45,8 @@ struct MapView: UIViewRepresentable {
 
 struct MapView_Previews: PreviewProvider {
   static var previews: some View {
-    MapView(searchKey: "東京タワー")
+    MapView(
+      searchKey: "東京タワー",
+      mapType: .standard)
   }
 }
