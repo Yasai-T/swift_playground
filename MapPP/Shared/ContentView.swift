@@ -45,7 +45,10 @@ struct ContentView: View {
         }) {
           Image(systemName: "map")
             .resizable()
-            .frame(width: 35.0, height: 35.0, alignment: .leading)
+            .frame(
+              width: 35.0, height: 35.0,
+              alignment: .leading
+            )
         }
         .padding(.trailing, 20.0)
         .padding(.bottom, 30.0)
