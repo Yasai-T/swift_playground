@@ -7,74 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5529CBB626D0D43300F45123 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5529CBB526D0D43300F45123 /* Tests_iOS.swift */; };
-		5529CBC026D0D43300F45123 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5529CBBF26D0D43300F45123 /* Tests_macOS.swift */; };
-		5529CBC126D0D43300F45123 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5529CB9F26D0D43200F45123 /* LandmarksApp.swift */; };
-		5529CBC226D0D43300F45123 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5529CB9F26D0D43200F45123 /* LandmarksApp.swift */; };
-		5529CBC326D0D43300F45123 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5529CBA026D0D43200F45123 /* ContentView.swift */; };
-		5529CBC426D0D43300F45123 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5529CBA026D0D43200F45123 /* ContentView.swift */; };
-		5529CBC526D0D43300F45123 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5529CBA126D0D43300F45123 /* Assets.xcassets */; };
-		5529CBC626D0D43300F45123 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5529CBA126D0D43300F45123 /* Assets.xcassets */; };
-		55D70A9426DA458100F7C564 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D70A9326DA458100F7C564 /* SoundPlayer.swift */; };
-		55D70A9526DA458100F7C564 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D70A9326DA458100F7C564 /* SoundPlayer.swift */; };
-		55D70A9A26DA636A00F7C564 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D70A9926DA636A00F7C564 /* ImageView.swift */; };
-		55D70A9B26DA636A00F7C564 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D70A9926DA636A00F7C564 /* ImageView.swift */; };
+		55FF6B4B26E3361000D47115 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FF6B4A26E3361000D47115 /* Tests_iOS.swift */; };
+		55FF6B5526E3361000D47115 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FF6B5426E3361000D47115 /* Tests_macOS.swift */; };
+		55FF6B5626E3361000D47115 /* MapPPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FF6B3426E3360E00D47115 /* MapPPApp.swift */; };
+		55FF6B5726E3361000D47115 /* MapPPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FF6B3426E3360E00D47115 /* MapPPApp.swift */; };
+		55FF6B5826E3361000D47115 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FF6B3526E3360E00D47115 /* ContentView.swift */; };
+		55FF6B5926E3361000D47115 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FF6B3526E3360E00D47115 /* ContentView.swift */; };
+		55FF6B5A26E3361000D47115 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55FF6B3626E3361000D47115 /* Assets.xcassets */; };
+		55FF6B5B26E3361000D47115 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55FF6B3626E3361000D47115 /* Assets.xcassets */; };
+		55FF6B6B26E3370D00D47115 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FF6B6A26E3370D00D47115 /* MapView.swift */; };
+		55FF6B6C26E3370D00D47115 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FF6B6A26E3370D00D47115 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5529CBB226D0D43300F45123 /* PBXContainerItemProxy */ = {
+		55FF6B4726E3361000D47115 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5529CB9A26D0D43200F45123 /* Project object */;
+			containerPortal = 55FF6B2F26E3360E00D47115 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5529CBA526D0D43300F45123;
-			remoteInfo = "Landmarks (iOS)";
+			remoteGlobalIDString = 55FF6B3A26E3361000D47115;
+			remoteInfo = "MapPP (iOS)";
 		};
-		5529CBBC26D0D43300F45123 /* PBXContainerItemProxy */ = {
+		55FF6B5126E3361000D47115 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5529CB9A26D0D43200F45123 /* Project object */;
+			containerPortal = 55FF6B2F26E3360E00D47115 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5529CBAB26D0D43300F45123;
-			remoteInfo = "Landmarks (macOS)";
+			remoteGlobalIDString = 55FF6B4026E3361000D47115;
+			remoteInfo = "MapPP (macOS)";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5529CB9F26D0D43200F45123 /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
-		5529CBA026D0D43200F45123 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		5529CBA126D0D43300F45123 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5529CBA626D0D43300F45123 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5529CBAC26D0D43300F45123 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5529CBB126D0D43300F45123 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5529CBB526D0D43300F45123 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
-		5529CBBB26D0D43300F45123 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5529CBBF26D0D43300F45123 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
-		55D70A9326DA458100F7C564 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
-		55D70A9926DA636A00F7C564 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		55FF6B3426E3360E00D47115 /* MapPPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPPApp.swift; sourceTree = "<group>"; };
+		55FF6B3526E3360E00D47115 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		55FF6B3626E3361000D47115 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55FF6B3B26E3361000D47115 /* MapPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55FF6B4126E3361000D47115 /* MapPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55FF6B4626E3361000D47115 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55FF6B4A26E3361000D47115 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		55FF6B5026E3361000D47115 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55FF6B5426E3361000D47115 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		55FF6B6A26E3370D00D47115 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5529CBA326D0D43300F45123 /* Frameworks */ = {
+		55FF6B3826E3361000D47115 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5529CBA926D0D43300F45123 /* Frameworks */ = {
+		55FF6B3E26E3361000D47115 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5529CBAE26D0D43300F45123 /* Frameworks */ = {
+		55FF6B4326E3361000D47115 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5529CBB826D0D43300F45123 /* Frameworks */ = {
+		55FF6B4D26E3361000D47115 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -84,51 +81,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5529CB9926D0D43200F45123 = {
+		55FF6B2E26E3360E00D47115 = {
 			isa = PBXGroup;
 			children = (
-				5529CB9E26D0D43200F45123 /* Shared */,
-				5529CBB426D0D43300F45123 /* Tests iOS */,
-				5529CBBE26D0D43300F45123 /* Tests macOS */,
-				5529CBA726D0D43300F45123 /* Products */,
+				55FF6B3326E3360E00D47115 /* Shared */,
+				55FF6B4926E3361000D47115 /* Tests iOS */,
+				55FF6B5326E3361000D47115 /* Tests macOS */,
+				55FF6B3C26E3361000D47115 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5529CB9E26D0D43200F45123 /* Shared */ = {
+		55FF6B3326E3360E00D47115 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				5529CB9F26D0D43200F45123 /* LandmarksApp.swift */,
-				5529CBA026D0D43200F45123 /* ContentView.swift */,
-				55D70A9926DA636A00F7C564 /* ImageView.swift */,
-				55D70A9326DA458100F7C564 /* SoundPlayer.swift */,
-				5529CBA126D0D43300F45123 /* Assets.xcassets */,
+				55FF6B3426E3360E00D47115 /* MapPPApp.swift */,
+				55FF6B3526E3360E00D47115 /* ContentView.swift */,
+				55FF6B6A26E3370D00D47115 /* MapView.swift */,
+				55FF6B3626E3361000D47115 /* Assets.xcassets */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
 		};
-		5529CBA726D0D43300F45123 /* Products */ = {
+		55FF6B3C26E3361000D47115 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5529CBA626D0D43300F45123 /* Landmarks.app */,
-				5529CBAC26D0D43300F45123 /* Landmarks.app */,
-				5529CBB126D0D43300F45123 /* Tests iOS.xctest */,
-				5529CBBB26D0D43300F45123 /* Tests macOS.xctest */,
+				55FF6B3B26E3361000D47115 /* MapPP.app */,
+				55FF6B4126E3361000D47115 /* MapPP.app */,
+				55FF6B4626E3361000D47115 /* Tests iOS.xctest */,
+				55FF6B5026E3361000D47115 /* Tests macOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5529CBB426D0D43300F45123 /* Tests iOS */ = {
+		55FF6B4926E3361000D47115 /* Tests iOS */ = {
 			isa = PBXGroup;
 			children = (
-				5529CBB526D0D43300F45123 /* Tests_iOS.swift */,
+				55FF6B4A26E3361000D47115 /* Tests_iOS.swift */,
 			);
 			path = "Tests iOS";
 			sourceTree = "<group>";
 		};
-		5529CBBE26D0D43300F45123 /* Tests macOS */ = {
+		55FF6B5326E3361000D47115 /* Tests macOS */ = {
 			isa = PBXGroup;
 			children = (
-				5529CBBF26D0D43300F45123 /* Tests_macOS.swift */,
+				55FF6B5426E3361000D47115 /* Tests_macOS.swift */,
 			);
 			path = "Tests macOS";
 			sourceTree = "<group>";
@@ -136,103 +132,103 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5529CBA526D0D43300F45123 /* Landmarks (iOS) */ = {
+		55FF6B3A26E3361000D47115 /* MapPP (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5529CBC926D0D43300F45123 /* Build configuration list for PBXNativeTarget "Landmarks (iOS)" */;
+			buildConfigurationList = 55FF6B5E26E3361000D47115 /* Build configuration list for PBXNativeTarget "MapPP (iOS)" */;
 			buildPhases = (
-				5529CBA226D0D43300F45123 /* Sources */,
-				5529CBA326D0D43300F45123 /* Frameworks */,
-				5529CBA426D0D43300F45123 /* Resources */,
+				55FF6B3726E3361000D47115 /* Sources */,
+				55FF6B3826E3361000D47115 /* Frameworks */,
+				55FF6B3926E3361000D47115 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Landmarks (iOS)";
-			productName = "Landmarks (iOS)";
-			productReference = 5529CBA626D0D43300F45123 /* Landmarks.app */;
+			name = "MapPP (iOS)";
+			productName = "MapPP (iOS)";
+			productReference = 55FF6B3B26E3361000D47115 /* MapPP.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5529CBAB26D0D43300F45123 /* Landmarks (macOS) */ = {
+		55FF6B4026E3361000D47115 /* MapPP (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5529CBCC26D0D43300F45123 /* Build configuration list for PBXNativeTarget "Landmarks (macOS)" */;
+			buildConfigurationList = 55FF6B6126E3361000D47115 /* Build configuration list for PBXNativeTarget "MapPP (macOS)" */;
 			buildPhases = (
-				5529CBA826D0D43300F45123 /* Sources */,
-				5529CBA926D0D43300F45123 /* Frameworks */,
-				5529CBAA26D0D43300F45123 /* Resources */,
+				55FF6B3D26E3361000D47115 /* Sources */,
+				55FF6B3E26E3361000D47115 /* Frameworks */,
+				55FF6B3F26E3361000D47115 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Landmarks (macOS)";
-			productName = "Landmarks (macOS)";
-			productReference = 5529CBAC26D0D43300F45123 /* Landmarks.app */;
+			name = "MapPP (macOS)";
+			productName = "MapPP (macOS)";
+			productReference = 55FF6B4126E3361000D47115 /* MapPP.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5529CBB026D0D43300F45123 /* Tests iOS */ = {
+		55FF6B4526E3361000D47115 /* Tests iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5529CBCF26D0D43300F45123 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildConfigurationList = 55FF6B6426E3361000D47115 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
 			buildPhases = (
-				5529CBAD26D0D43300F45123 /* Sources */,
-				5529CBAE26D0D43300F45123 /* Frameworks */,
-				5529CBAF26D0D43300F45123 /* Resources */,
+				55FF6B4226E3361000D47115 /* Sources */,
+				55FF6B4326E3361000D47115 /* Frameworks */,
+				55FF6B4426E3361000D47115 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5529CBB326D0D43300F45123 /* PBXTargetDependency */,
+				55FF6B4826E3361000D47115 /* PBXTargetDependency */,
 			);
 			name = "Tests iOS";
 			productName = "Tests iOS";
-			productReference = 5529CBB126D0D43300F45123 /* Tests iOS.xctest */;
+			productReference = 55FF6B4626E3361000D47115 /* Tests iOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		5529CBBA26D0D43300F45123 /* Tests macOS */ = {
+		55FF6B4F26E3361000D47115 /* Tests macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5529CBD226D0D43300F45123 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildConfigurationList = 55FF6B6726E3361000D47115 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
 			buildPhases = (
-				5529CBB726D0D43300F45123 /* Sources */,
-				5529CBB826D0D43300F45123 /* Frameworks */,
-				5529CBB926D0D43300F45123 /* Resources */,
+				55FF6B4C26E3361000D47115 /* Sources */,
+				55FF6B4D26E3361000D47115 /* Frameworks */,
+				55FF6B4E26E3361000D47115 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5529CBBD26D0D43300F45123 /* PBXTargetDependency */,
+				55FF6B5226E3361000D47115 /* PBXTargetDependency */,
 			);
 			name = "Tests macOS";
 			productName = "Tests macOS";
-			productReference = 5529CBBB26D0D43300F45123 /* Tests macOS.xctest */;
+			productReference = 55FF6B5026E3361000D47115 /* Tests macOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5529CB9A26D0D43200F45123 /* Project object */ = {
+		55FF6B2F26E3360E00D47115 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
-					5529CBA526D0D43300F45123 = {
+					55FF6B3A26E3361000D47115 = {
 						CreatedOnToolsVersion = 13.0;
 					};
-					5529CBAB26D0D43300F45123 = {
+					55FF6B4026E3361000D47115 = {
 						CreatedOnToolsVersion = 13.0;
 					};
-					5529CBB026D0D43300F45123 = {
+					55FF6B4526E3361000D47115 = {
 						CreatedOnToolsVersion = 13.0;
-						TestTargetID = 5529CBA526D0D43300F45123;
+						TestTargetID = 55FF6B3A26E3361000D47115;
 					};
-					5529CBBA26D0D43300F45123 = {
+					55FF6B4F26E3361000D47115 = {
 						CreatedOnToolsVersion = 13.0;
-						TestTargetID = 5529CBAB26D0D43300F45123;
+						TestTargetID = 55FF6B4026E3361000D47115;
 					};
 				};
 			};
-			buildConfigurationList = 5529CB9D26D0D43200F45123 /* Build configuration list for PBXProject "Landmarks" */;
+			buildConfigurationList = 55FF6B3226E3360E00D47115 /* Build configuration list for PBXProject "MapPP" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -240,44 +236,44 @@
 				en,
 				Base,
 			);
-			mainGroup = 5529CB9926D0D43200F45123;
-			productRefGroup = 5529CBA726D0D43300F45123 /* Products */;
+			mainGroup = 55FF6B2E26E3360E00D47115;
+			productRefGroup = 55FF6B3C26E3361000D47115 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5529CBA526D0D43300F45123 /* Landmarks (iOS) */,
-				5529CBAB26D0D43300F45123 /* Landmarks (macOS) */,
-				5529CBB026D0D43300F45123 /* Tests iOS */,
-				5529CBBA26D0D43300F45123 /* Tests macOS */,
+				55FF6B3A26E3361000D47115 /* MapPP (iOS) */,
+				55FF6B4026E3361000D47115 /* MapPP (macOS) */,
+				55FF6B4526E3361000D47115 /* Tests iOS */,
+				55FF6B4F26E3361000D47115 /* Tests macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5529CBA426D0D43300F45123 /* Resources */ = {
+		55FF6B3926E3361000D47115 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5529CBC526D0D43300F45123 /* Assets.xcassets in Resources */,
+				55FF6B5A26E3361000D47115 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5529CBAA26D0D43300F45123 /* Resources */ = {
+		55FF6B3F26E3361000D47115 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5529CBC626D0D43300F45123 /* Assets.xcassets in Resources */,
+				55FF6B5B26E3361000D47115 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5529CBAF26D0D43300F45123 /* Resources */ = {
+		55FF6B4426E3361000D47115 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5529CBB926D0D43300F45123 /* Resources */ = {
+		55FF6B4E26E3361000D47115 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -287,61 +283,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5529CBA226D0D43300F45123 /* Sources */ = {
+		55FF6B3726E3361000D47115 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55D70A9A26DA636A00F7C564 /* ImageView.swift in Sources */,
-				5529CBC326D0D43300F45123 /* ContentView.swift in Sources */,
-				55D70A9426DA458100F7C564 /* SoundPlayer.swift in Sources */,
-				5529CBC126D0D43300F45123 /* LandmarksApp.swift in Sources */,
+				55FF6B5826E3361000D47115 /* ContentView.swift in Sources */,
+				55FF6B6B26E3370D00D47115 /* MapView.swift in Sources */,
+				55FF6B5626E3361000D47115 /* MapPPApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5529CBA826D0D43300F45123 /* Sources */ = {
+		55FF6B3D26E3361000D47115 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55D70A9B26DA636A00F7C564 /* ImageView.swift in Sources */,
-				5529CBC426D0D43300F45123 /* ContentView.swift in Sources */,
-				55D70A9526DA458100F7C564 /* SoundPlayer.swift in Sources */,
-				5529CBC226D0D43300F45123 /* LandmarksApp.swift in Sources */,
+				55FF6B5926E3361000D47115 /* ContentView.swift in Sources */,
+				55FF6B6C26E3370D00D47115 /* MapView.swift in Sources */,
+				55FF6B5726E3361000D47115 /* MapPPApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5529CBAD26D0D43300F45123 /* Sources */ = {
+		55FF6B4226E3361000D47115 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5529CBB626D0D43300F45123 /* Tests_iOS.swift in Sources */,
+				55FF6B4B26E3361000D47115 /* Tests_iOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5529CBB726D0D43300F45123 /* Sources */ = {
+		55FF6B4C26E3361000D47115 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5529CBC026D0D43300F45123 /* Tests_macOS.swift in Sources */,
+				55FF6B5526E3361000D47115 /* Tests_macOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5529CBB326D0D43300F45123 /* PBXTargetDependency */ = {
+		55FF6B4826E3361000D47115 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5529CBA526D0D43300F45123 /* Landmarks (iOS) */;
-			targetProxy = 5529CBB226D0D43300F45123 /* PBXContainerItemProxy */;
+			target = 55FF6B3A26E3361000D47115 /* MapPP (iOS) */;
+			targetProxy = 55FF6B4726E3361000D47115 /* PBXContainerItemProxy */;
 		};
-		5529CBBD26D0D43300F45123 /* PBXTargetDependency */ = {
+		55FF6B5226E3361000D47115 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5529CBAB26D0D43300F45123 /* Landmarks (macOS) */;
-			targetProxy = 5529CBBC26D0D43300F45123 /* PBXContainerItemProxy */;
+			target = 55FF6B4026E3361000D47115 /* MapPP (macOS) */;
+			targetProxy = 55FF6B5126E3361000D47115 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		5529CBC726D0D43300F45123 /* Debug */ = {
+		55FF6B5C26E3361000D47115 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -400,7 +394,7 @@
 			};
 			name = Debug;
 		};
-		5529CBC826D0D43300F45123 /* Release */ = {
+		55FF6B5D26E3361000D47115 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -452,7 +446,7 @@
 			};
 			name = Release;
 		};
-		5529CBCA26D0D43300F45123 /* Debug */ = {
+		55FF6B5F26E3361000D47115 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -473,8 +467,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "personal.Landmarks-unique";
-				PRODUCT_NAME = Landmarks;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yasai-t.MapPP";
+				PRODUCT_NAME = MapPP;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -482,7 +476,7 @@
 			};
 			name = Debug;
 		};
-		5529CBCB26D0D43300F45123 /* Release */ = {
+		55FF6B6026E3361000D47115 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -503,8 +497,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "personal.Landmarks-release";
-				PRODUCT_NAME = Landmarks;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yasai-t.MapPP";
+				PRODUCT_NAME = MapPP;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -513,7 +507,7 @@
 			};
 			name = Release;
 		};
-		5529CBCD26D0D43300F45123 /* Debug */ = {
+		55FF6B6226E3361000D47115 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -534,15 +528,15 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = personal.Landmarks;
-				PRODUCT_NAME = Landmarks;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yasai-t.MapPP";
+				PRODUCT_NAME = MapPP;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		5529CBCE26D0D43300F45123 /* Release */ = {
+		55FF6B6326E3361000D47115 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -563,15 +557,15 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = personal.Landmarks;
-				PRODUCT_NAME = Landmarks;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yasai-t.MapPP";
+				PRODUCT_NAME = MapPP;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
-		5529CBD026D0D43300F45123 /* Debug */ = {
+		55FF6B6526E3361000D47115 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -586,17 +580,17 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "personal.Tests-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yasai-t.Tests-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Landmarks (iOS)";
+				TEST_TARGET_NAME = "MapPP (iOS)";
 			};
 			name = Debug;
 		};
-		5529CBD126D0D43300F45123 /* Release */ = {
+		55FF6B6626E3361000D47115 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -611,18 +605,18 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "personal.Tests-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yasai-t.Tests-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Landmarks (iOS)";
+				TEST_TARGET_NAME = "MapPP (iOS)";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		5529CBD326D0D43300F45123 /* Debug */ = {
+		55FF6B6826E3361000D47115 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -638,16 +632,16 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "personal.Tests-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yasai-t.Tests-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "Landmarks (macOS)";
+				TEST_TARGET_NAME = "MapPP (macOS)";
 			};
 			name = Debug;
 		};
-		5529CBD426D0D43300F45123 /* Release */ = {
+		55FF6B6926E3361000D47115 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -663,64 +657,64 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "personal.Tests-macOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yasai-t.Tests-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "Landmarks (macOS)";
+				TEST_TARGET_NAME = "MapPP (macOS)";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5529CB9D26D0D43200F45123 /* Build configuration list for PBXProject "Landmarks" */ = {
+		55FF6B3226E3360E00D47115 /* Build configuration list for PBXProject "MapPP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5529CBC726D0D43300F45123 /* Debug */,
-				5529CBC826D0D43300F45123 /* Release */,
+				55FF6B5C26E3361000D47115 /* Debug */,
+				55FF6B5D26E3361000D47115 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5529CBC926D0D43300F45123 /* Build configuration list for PBXNativeTarget "Landmarks (iOS)" */ = {
+		55FF6B5E26E3361000D47115 /* Build configuration list for PBXNativeTarget "MapPP (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5529CBCA26D0D43300F45123 /* Debug */,
-				5529CBCB26D0D43300F45123 /* Release */,
+				55FF6B5F26E3361000D47115 /* Debug */,
+				55FF6B6026E3361000D47115 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5529CBCC26D0D43300F45123 /* Build configuration list for PBXNativeTarget "Landmarks (macOS)" */ = {
+		55FF6B6126E3361000D47115 /* Build configuration list for PBXNativeTarget "MapPP (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5529CBCD26D0D43300F45123 /* Debug */,
-				5529CBCE26D0D43300F45123 /* Release */,
+				55FF6B6226E3361000D47115 /* Debug */,
+				55FF6B6326E3361000D47115 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5529CBCF26D0D43300F45123 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+		55FF6B6426E3361000D47115 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5529CBD026D0D43300F45123 /* Debug */,
-				5529CBD126D0D43300F45123 /* Release */,
+				55FF6B6526E3361000D47115 /* Debug */,
+				55FF6B6626E3361000D47115 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5529CBD226D0D43300F45123 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+		55FF6B6726E3361000D47115 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5529CBD326D0D43300F45123 /* Debug */,
-				5529CBD426D0D43300F45123 /* Release */,
+				55FF6B6826E3361000D47115 /* Debug */,
+				55FF6B6926E3361000D47115 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5529CB9A26D0D43200F45123 /* Project object */;
+	rootObject = 55FF6B2F26E3360E00D47115 /* Project object */;
 }
